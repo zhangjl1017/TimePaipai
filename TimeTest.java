@@ -13,7 +13,7 @@ public class TimeTest {
         //得到时间类
         Calendar date = Calendar.getInstance();
         //设置时间为 xx-xx-xx 00:00:00
-        date.set(date.get(Calendar.YEAR), date.get(Calendar.MONTH), date.get(Calendar.DATE), 15, 41, 0);
+        date.set(date.get(Calendar.YEAR), date.get(Calendar.MONTH), date.get(Calendar.DATE), 11, 29, 4);
         //执行间隔秒数
         long daySpan = 11 * 1000;
         final int x1,y1;
